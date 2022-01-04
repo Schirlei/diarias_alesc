@@ -1,6 +1,6 @@
 ## Diárias pagas aos deputados da Assembleia Legislativa de SC
 
-Este repositório foi criado como projeto final para as disciplina de Pensamento Computacional e Algoritmo de Automação, no Master em Jornalismo dados, Automação e Data Storytelling do Insper.  
+Este repositório foi criado como projeto final para as disciplinas de Pensamento Computacional e Algoritmo de Automação, no Master em Jornalismo dados, Automação e Data Storytelling do Insper.  
 
 O projeto contém o código necessário para capturar as informações das diárias pagas aos gabinetes dos deputados catarinenses. O programa permite baixar as planilhas de 11 anos de legislatura e convertê-las em um arquivo único no formato CSV.
 
