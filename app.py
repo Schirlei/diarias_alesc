@@ -11,4 +11,4 @@ credentials = json.loads(conteudo)
 
 service_account = gspread.service_account_from_dict(credentials) #Faz a autenticação
 spreadsheet = service_account.open_by_key(spreadsheet_id) #Conecta à planilha
-worksheet = spreadsheet.worksheet("Planilha1") #Escolhe a aba
+worksheet = spreadsheet.worksheet("Página1") #Escolhe a aba
