@@ -24,8 +24,8 @@ def raspar_alesc_escrever_spreadsheet(worksheet):
     for dado in dados:
         data = datetime.strptime(dado['Data'], '%d/%m/%Y')
         #se a data for maior do que ontem, acrescentar à planilha
-        #if data > ontem:
-        worksheet.append_row(list(dado.values()))
+        if data > ontem:
+            worksheet.append_row(list(dado.values()))
             
 #torna .py "executável"
 if __name__ == '__main__':
