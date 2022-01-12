@@ -16,7 +16,7 @@ spreadsheet = service_account.open_by_key(spreadsheet_id) #Conecta à planilha
 worksheet = spreadsheet.worksheet("Página1") #Escolhe a aba
 
 def raspar_alesc_escrever_spreadsheet(worksheet):
-    df = pd.read_csv('https://transparencia.alesc.sc.gov.br/diarias_csv.php?ano=2021'),
+    df = pd.read_csv('https://transparencia.alesc.sc.gov.br/diarias_csv.php?ano=2021',
                      sep=';',
                      encoding='iso 8859-1')
     dados = df.to_dict('records')
