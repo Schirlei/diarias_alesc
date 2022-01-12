@@ -32,5 +32,5 @@ def raspar_alesc_escrever_spreadsheet(worksheet):
             #worksheet.append_row(list(dado.values()))
             
 #torna .py "executável"
-if __name__ == '__main__':
-    raspar_alesc_escrever_spreadsheet(worksheet)
+#if __name__ == '__main__':
+    #raspar_alesc_escrever_spreadsheet(worksheet)
