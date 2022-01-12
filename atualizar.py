@@ -23,8 +23,10 @@ def raspar_alesc_escrever_spreadsheet(worksheet):
     #ontem = datetime.today() - timedelta(days=1)
     for dado in dados:
         exists = worksheet.findall(dado['Relatório'])
+        time.sleep(0.25)
         if not exists:
             worksheet.append_row(list(dado.values()))
+            time.sleep(0.25)
                                  
         #data = datetime.strptime(dado['Data'], '%d/%m/%Y')
         #se a data for maior do que ontem, acrescentar à planilha
