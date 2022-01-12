@@ -20,7 +20,7 @@ def raspar_alesc_escrever_spreadsheet(worksheet):
                      sep=';',
                      encoding='iso 8859-1')
     dados = df.to_dict('records')
-    ontem = datetime.today() - timedelta(days=1)
+    #ontem = datetime.today() - timedelta(days=1)
     for dado in dados:
         exists = worksheet.findall(dado['Relatório'])
         if not exists:
