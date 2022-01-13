@@ -24,10 +24,10 @@ def raspar_alesc_escrever_spreadsheet(worksheet):
     print(f"Processando {len(dados)} linhas…")
     for dado in dados:
         exists = worksheet.findall(dado['Relatório'])
-        time.sleep(0.75)
+        time.sleep(1.25)
         if not exists:
             worksheet.append_row(list(dado.values()))
-            time.sleep(0.75)
+            time.sleep(1.25)
         else:  
             print(f"Relatório {dado['Relatório']} já existe")
                                    
