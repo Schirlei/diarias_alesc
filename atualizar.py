@@ -21,18 +21,16 @@ def raspar_alesc_escrever_spreadsheet(worksheet):
                      sep=';',
                      encoding='iso 8859-1')
     dados = df.to_dict('records')
-    #ontem = datetime.today() - timedelta(days=1)
+    print(f"Processando {len(dados)} linhas…")
     for dado in dados:
         exists = worksheet.findall(dado['Relatório'])
         time.sleep(2.25)
         if not exists:
             worksheet.append_row(list(dado.values()))
             time.sleep(2.25)
-                                 
-        #data = datetime.strptime(dado['Data'], '%d/%m/%Y')
-        #se a data for maior do que ontem, acrescentar à planilha
-        #if data > ontem:
-            #worksheet.append_row(list(dado.values()))
+        else:  
+            print(f"Relatório {dado['Relatório']} já existe")
+                                   
             
 #torna .py "executável"
 if __name__ == '__main__':
