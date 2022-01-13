@@ -15,6 +15,7 @@ credentials = json.loads(conteudo)
 service_account = gspread.service_account_from_dict(credentials) #Faz a autenticação
 spreadsheet = service_account.open_by_key(spreadsheet_id) #Conecta à planilha
 worksheet = spreadsheet.worksheet("Página1") #Escolhe a aba
+valores_atuais = worksheet.col_values(7)
 
 def raspar_alesc_escrever_spreadsheet(worksheet):
     df = pd.read_csv('https://transparencia.alesc.sc.gov.br/diarias_csv.php?ano=2021',
@@ -23,8 +24,7 @@ def raspar_alesc_escrever_spreadsheet(worksheet):
     dados = df.to_dict('records')
     print(f"Processando {len(dados)} linhas…")
     for dado in dados:
-        exists = worksheet.findall(dado['Relatório'])
-        time.sleep(1.25)
+        exists = dado['Relatório'] in valores_atuais
         if not exists:
             worksheet.append_row(list(dado.values()))
             time.sleep(1.25)
