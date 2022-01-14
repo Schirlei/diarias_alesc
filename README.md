@@ -6,7 +6,11 @@ O projeto contém o código necessário para capturar atuomaticamente as informa
 
 O arquivo final gerado pelo programa possui as seguintes informações: o valor da diária paga, o nome do servidor que recebeu o pagamento, o gabinete ao qual pertence o servidor, o vínculo empregatício, a data do uso da diária, a quantidade de diárias usufruídas e um relatório com mais detalhes sobre a diária. A planilha concentra os dados de 2011 a dezembro de 2021. O documento, porém, continuará sendo abastecido com as informações de 2022.
 
-Os dados são coletados automaticamente do portal da Alesc e enviados para uma planilha no Google Sheets. A planilha foi automatizada por meio do Heroku, cuja atualização está programada para ocorrer todas as noites, às 23h30. Desta forma, é possível manter a planilha do ano em exercício atualizada com os gastos mais recentes dos gabinetes dos deputados. A planilha pode ser acessada aqui (https://bit.ly/3ESXenJ).  
+Os dados são coletados automaticamente do portal da Alesc e enviados para uma planilha no Google Sheets. A planilha foi automatizada por meio do Heroku, cuja atualização está programada para ocorrer todas as noites, às 23h30. Desta forma, é possível manter a planilha do ano em exercício atualizada com os gastos mais recentes dos gabinetes dos deputados. 
+
+### Como funciona
+
+Você pode acessar a planilha com as informações sobre os gastos com diárias clicando [aqui](https://bit.ly/3ESXenJ). Use os filtros do spreadsheets para pesquisar os gastos de um deputado específico, pesquisar quem foi o parlamentar catarinense que gastou mais e até mesmo os destinos para onde os viajaram.    
 
 ### Fonte dos dados
 
