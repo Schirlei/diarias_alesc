@@ -12,6 +12,6 @@ Os dados são coletados automaticamente do portal da Alesc e enviados para uma p
 
 A base de captura das informações é o [Portal da Transparência](https://transparencia.alesc.sc.gov.br/diarias_dados_abertos.php) da Assembleia Legislativa de Santa Catarina (Alesc). 
 
-## Contato sobre o projeto
+#### Contato sobre o projeto
 
 e-mail: schirleialves@gmail.com
