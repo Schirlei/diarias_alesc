@@ -1,4 +1,4 @@
-## Diárias pagas aos deputados da Assembleia Legislativa de SC
+## Os gastos com diárias dos deputados catarinenses
 
 Este repositório foi criado como projeto final da primeira certificação no Master em Jornalismo Dados, Automação e Data Storytelling do Insper. O projeto recebeu orientação de [Álvaro Justen](https://github.com/turicas), Bernardo Vianna e [Eduardo Cuducos](https://github.com/cuducos). 
 
