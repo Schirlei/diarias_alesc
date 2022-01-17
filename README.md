@@ -10,7 +10,7 @@ Os dados são coletados automaticamente do portal da Alesc e enviados para uma p
 
 ### Como funciona
 
-Você pode acessar a planilha com as informações sobre os gastos com diárias clicando [aqui](https://bit.ly/3ESXenJ). Use os filtros do spreadsheets para pesquisar os gastos de um deputado específico, quem foi o parlamentar catarinense que gastou mais e até mesmo os destinos para onde os deputados e os servidores de seus gabinetes viajaram.    
+Você pode acessar a planilha com as informações sobre os gastos com diárias clicando [aqui](https://bit.ly/3ESXenJ). Use os filtros do spreadsheets para pesquisar os gastos de um deputado específico, quem foi o parlamentar catarinense que gastou mais e até mesmo os destinos para onde os deputados e os servidores de seus gabinetes viajaram. Caso você utilize os dados, não esqueça de citar a fonte original e o projeto.
 
 ### Fonte dos dados
 
@@ -18,4 +18,5 @@ A base de captura das informações é o [Portal da Transparência](https://tran
 
 #### Contato sobre o projeto
 
-e-mail: schirleialves@gmail.com
+Autora: Schirlei Alves
+E-mail: schirleialves@gmail.com
