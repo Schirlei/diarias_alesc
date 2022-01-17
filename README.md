@@ -8,6 +8,18 @@ O arquivo final gerado pelo programa possui as seguintes informações: o valor 
 
 Os dados são coletados automaticamente do portal da Alesc e enviados para uma planilha no Google Sheets. A planilha foi automatizada por meio do Heroku, cuja atualização está programada para ocorrer todas as noites, às 23h30. Desta forma, é possível manter a planilha do ano em exercício atualizada com os gastos mais recentes dos gabinetes dos deputados. 
 
+### Dicionário 
+
+| Cabeçalho  |  Significado  |
+| ---------- | ------------- |
+|  Nome | Servidor que fez uso da diária |
+|  Conta | Deputado responsável pelo gabinete de onde saiu o recurso |
+|  Vínculo | Identifica quem usou o recurso, se foi o próprio deputado ou o servidor do seu gabinete |
+|  Data | Data em que a diária foi usufruída |
+|  Quantidade | Número de diárias usufruídas |
+|  Valor | Valor pago pela (as) diária(s) |
+|  Relatório | PDF contém informações sobre o motivo da viagem, itinerário e período  |
+
 ### Como funciona
 
 Você pode acessar a planilha com as informações sobre os gastos com diárias clicando [aqui](https://bit.ly/3ESXenJ). Use os filtros do spreadsheets para pesquisar os gastos de um deputado específico, quem foi o parlamentar catarinense que gastou mais e até mesmo os destinos para onde os deputados e os servidores de seus gabinetes viajaram. Caso você utilize os dados, não esqueça de citar a fonte original e o projeto.
@@ -18,5 +30,6 @@ A base de captura das informações é o [Portal da Transparência](https://tran
 
 #### Contato sobre o projeto
 
-Autora: Schirlei Alves /
+Autora: Schirlei Alves
+
 E-mail: schirleialves@gmail.com
