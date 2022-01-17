@@ -18,5 +18,5 @@ A base de captura das informações é o [Portal da Transparência](https://tran
 
 #### Contato sobre o projeto
 
-Autora: Schirlei Alves
+Autora: Schirlei Alves /
 E-mail: schirleialves@gmail.com
